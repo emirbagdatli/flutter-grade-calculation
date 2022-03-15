@@ -31,7 +31,7 @@ class CourseList extends StatelessWidget {
                         backgroundColor: Constants.mainColor.shade500,
                         child: Text((allCourses[index].letterValue *
                                 allCourses[index].creditValue)
-                            .toStringAsFixed(2)),
+                            .toStringAsFixed(1)),
                       ),
                       subtitle: Text(
                           '${allCourses[index].creditValue} Credit, Grade Value ${allCourses[index].letterValue}'),
